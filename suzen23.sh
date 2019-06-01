@@ -9,3 +9,4 @@ cd ..
 mv *log /home/suzen/destination
 cd ..
 ls -a
+# перемещение или переименование каталогов
