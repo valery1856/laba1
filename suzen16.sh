@@ -1,2 +1,2 @@
 #!bin/bash/
-id
+echo "Flag is: $(id)"
