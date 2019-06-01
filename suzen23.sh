@@ -1,8 +1,11 @@
 #!bin/bash/
-/home/suzen/source # mv *.log /home/suzen/destination/
-/home/suzen/destination # mv nginx1.back.log nginx1.log.back
-/home/suzen/destination # mv nginx2.back.log nginx2.log.back
-/home/suzen/destination # mv nginx3.back.log nginx3.log.back
-/home/suzen/destination # mv nginx4.back.log nginx4.log.back
-/home/suzen/destination # mv nginx5.back.log nginx5.log.back
-
+cd destination
+mv ngnix1.log ngnix1.log.back 
+mv ngnix2.log ngnix2.log.back
+mv ngnix3.log ngnix3.log.back
+mv ngnix4.log ngnix4.log.back
+mv ngnix5.log ngnix5.log.back
+cd ..
+mv *log /home/suzen/destination
+cd ..
+ls -a
