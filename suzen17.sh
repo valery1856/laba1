@@ -1,2 +1,2 @@
 #!bin/bash/
-ls -a
+var=$(ls -a); echo "flag is: $var"
